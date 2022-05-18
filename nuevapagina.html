@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/dbf8d716f1.js" crossorigin="anonymous"></script>
+    <title>Mi agenda Groomer</title>
+    <link rel="stylesheet" href="otrosestilos.css">
+    <script defer src="scriptNew.js"></script>
+    <script defer src="pruebas.js"></script>
+
+    <script defer src="pruebas2.js"></script>
+</head>
+
+<body>
+    <div class="principal">
+        <div class="wrap">
+            <form class="formulario" action="">
+                <input type="text" id="owner" placeholder="Propietario">
+                <input type="text" id="pet-name" placeholder="nombre de mascota">
+                <input type="text" id="breed-pet" placeholder="Raza de mascota">
+                <input type="text" id="phone-number" placeholder="numero telefonico">
+                <input type="datetime-local" id="calendar" placeholder="Agrega tu tarea"><br><br>
+                <input type="button" class="boton" id="btn-agregar" value="Agendar Cita">
+
+
+            </form>
+        </div>
+    </div>
+
+    <div class="tareas">
+        <div class="wrap">
+            <ul class="lista" id="lista">
+
+            </ul>
+        </div>
+        <div id='calendar'></div>
+
+        <div id="padre">
+
+            <div id="hijo">
+
+            </div>
+
+        </div>
+</body>
+
+</html>
